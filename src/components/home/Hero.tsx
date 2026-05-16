@@ -141,7 +141,7 @@ export function Hero() {
 						<div
 							className="hero-map w-full hidden lg:block"
 							style={{ aspectRatio: "16 / 9" }}>
-							<WorldMap />
+							<WorldMap theme="light" />
 						</div>
 
 						<div className="hero-ctas flex flex-wrap gap-3">

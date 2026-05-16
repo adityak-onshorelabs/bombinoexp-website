@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { MAP_DOTS } from "@/components/home/map-dots";
 
 interface WorldMapProps {
-	theme?: "amber" | "white";
+	theme?: "amber" | "white" | "light";
 	showLandmass?: boolean;
 }
 
@@ -18,16 +18,27 @@ export function WorldMap({
 	const uid = useId().replace(/:/g, "");
 
 	const isAmber = theme === "amber";
+	const isLight = theme === "light";
 
-	const accent = isAmber ? "#FBAD1F" : "white";
-	const dotOpacity = isAmber ? "0.15" : "0.10";
-	const routePrimary = isAmber ? `url(#${uid}-grad)` : "rgba(255,255,255,0.55)";
+	const accent = isAmber ? "#FBAD1F" : isLight ? "#475569" : "white";
+	const dotFill = isLight ? "#94a3b8" : accent;
+	const dotOpacity = isAmber ? "0.15" : isLight ? "0.45" : "0.10";
+	const cityAccent = isLight ? "#1e293b" : accent;
+	const routePrimary = isAmber
+		? `url(#${uid}-grad)`
+		: isLight
+			? `url(#${uid}-grad)`
+			: "rgba(255,255,255,0.55)";
 	const routeSecondary = isAmber
 		? "rgba(242,161,35,0.6)"
-		: "rgba(255,255,255,0.35)";
+		: isLight
+			? "rgba(251,173,31,0.65)"
+			: "rgba(255,255,255,0.35)";
 	const routeTertiary = isAmber
 		? "rgba(242,161,35,0.4)"
-		: "rgba(255,255,255,0.20)";
+		: isLight
+			? "rgba(251,173,31,0.4)"
+			: "rgba(255,255,255,0.20)";
 
 	useGSAP(
 		() => {
@@ -76,14 +87,14 @@ export function WorldMap({
 					</feMerge>
 				</filter>
 				<linearGradient id={`${uid}-grad`} x1="0%" y1="0%" x2="100%" y2="0%">
-					<stop offset="0%" stopColor={accent} stopOpacity="0.90" />
-					<stop offset="100%" stopColor={accent} stopOpacity="1" />
+					<stop offset="0%" stopColor="#FBAD1F" stopOpacity="0.90" />
+					<stop offset="100%" stopColor="#FBAD1F" stopOpacity="1" />
 				</linearGradient>
 			</defs>
 
 			{/* Landmass dots */}
 			{showLandmass && (
-				<g className="landmass" fill={accent} fillOpacity={dotOpacity}>
+				<g className="landmass" fill={dotFill} fillOpacity={dotOpacity}>
 					{MAP_DOTS.map(([x, y]) => (
 						<circle key={`${x},${y}`} cx={x} cy={y} r={3.8} />
 					))}
@@ -179,11 +190,11 @@ export function WorldMap({
 
 			{/* USA */}
 			<g className="city-node">
-				<circle cx="300" cy="260" r="6" fill={accent} />
+				<circle cx="300" cy="260" r="6" fill={cityAccent} />
 				<text
 					x="300"
 					y="295"
-					fill={accent}
+					fill={cityAccent}
 					fontSize="20"
 					fontWeight="700"
 					opacity="0.9"
@@ -196,11 +207,11 @@ export function WorldMap({
 
 			{/* UK */}
 			<g className="city-node">
-				<circle cx="600" cy="175" r="6" fill={accent} />
+				<circle cx="600" cy="175" r="6" fill={cityAccent} />
 				<text
 					x="600"
 					y="210"
-					fill={accent}
+					fill={cityAccent}
 					fontSize="20"
 					fontWeight="700"
 					opacity="0.9"
@@ -213,11 +224,11 @@ export function WorldMap({
 
 			{/* UAE */}
 			<g className="city-node">
-				<circle cx="750" cy="320" r="6" fill={accent} />
+				<circle cx="750" cy="320" r="6" fill={cityAccent} />
 				<text
 					x="750"
 					y="355"
-					fill={accent}
+					fill={cityAccent}
 					fontSize="20"
 					fontWeight="700"
 					opacity="0.9"
@@ -230,11 +241,11 @@ export function WorldMap({
 
 			{/* China */}
 			<g className="city-node">
-				<circle cx="950" cy="280" r="6" fill={accent} />
+				<circle cx="950" cy="280" r="6" fill={cityAccent} />
 				<text
 					x="950"
 					y="315"
-					fill={accent}
+					fill={cityAccent}
 					fontSize="20"
 					fontWeight="700"
 					opacity="0.9"
@@ -247,11 +258,11 @@ export function WorldMap({
 
 			{/* Australia */}
 			<g className="city-node">
-				<circle cx="1020" cy="470" r="6" fill={accent} />
+				<circle cx="1020" cy="470" r="6" fill={cityAccent} />
 				<text
 					x="1020"
 					y="505"
-					fill={accent}
+					fill={cityAccent}
 					fontSize="20"
 					fontWeight="700"
 					opacity="0.9"
