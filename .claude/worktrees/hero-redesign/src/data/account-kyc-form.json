@@ -1,0 +1,129 @@
+{
+	"pageTitle": "Account Opening & KYC Form",
+	"subtitle": "For International/Hybrid Shipping Accounts",
+	"instructions": "As mandated by Indian Customs vide CBEC Circulars 09/2010, 33/2010 and 07/2015 for identification/verification of importers/exporters. Please complete all required fields below.",
+	"sections": [
+		{
+			"id": "company_details",
+			"title": "1. Business Details",
+			"fields": [
+				{
+					"name": "entityName",
+					"label": "Name of Entity",
+					"type": "text",
+					"required": true
+				},
+				{
+					"name": "category",
+					"label": "Category",
+					"type": "select",
+					"options": [
+						"Individual/Proprietary firm",
+						"Company",
+						"Trust/Foundation",
+						"Partnership firm/LLP",
+						"Institutions (Embassy/U.N. Bodies/Govt)"
+					],
+					"required": true
+				},
+				{
+					"name": "businessAddress",
+					"label": "Principal Business Address",
+					"type": "textarea",
+					"required": true
+				}
+			]
+		},
+		{
+			"id": "contact_details",
+			"title": "2. Contact Information",
+			"fields": [
+				{ "name": "telephone", "label": "Telephone No", "type": "tel" },
+				{
+					"name": "mobile",
+					"label": "Mobile No",
+					"type": "tel",
+					"required": true
+				},
+				{
+					"name": "email",
+					"label": "Email ID for correspondence/billing",
+					"type": "email",
+					"required": true
+				},
+				{ "name": "website", "label": "Website", "type": "url" }
+			]
+		},
+		{
+			"id": "authorized_signatory",
+			"title": "3. Authorized Signatory",
+			"fields": [
+				{
+					"name": "signatoryNameTitle",
+					"label": "Name and Title of Authorized Signatory",
+					"type": "text",
+					"required": true
+				},
+				{
+					"name": "signatoryEmail",
+					"label": "E-mail ID of Authorized Signatory",
+					"type": "email",
+					"required": true
+				}
+			]
+		},
+		{
+			"id": "tax_registration",
+			"title": "4. Tax & Registration Details",
+			"fields": [
+				{ "name": "iecNo", "label": "IEC No", "type": "text" },
+				{
+					"name": "panNo",
+					"label": "PAN No",
+					"type": "text",
+					"required": true
+				},
+				{ "name": "tanNo", "label": "TAN No", "type": "text" },
+				{
+					"name": "gstRegistered",
+					"label": "Registered under Goods & Service Tax?",
+					"type": "radio",
+					"options": ["YES", "NO"],
+					"required": true
+				},
+				{ "name": "gstin", "label": "GSTIN/UIN", "type": "text" },
+				{ "name": "gstState", "label": "State", "type": "text" }
+			]
+		},
+		{
+			"id": "document_uploads",
+			"title": "5. Document Uploads (KYC)",
+			"description": "Please upload the following required documents as per your selected category.",
+			"fields": [
+				{
+					"name": "identityProof",
+					"label": "Identity Proof (PAN/GSTIN/UIN)",
+					"type": "file",
+					"required": true
+				},
+				{
+					"name": "addressProof",
+					"label": "Address Proof (Utility Bill/Bank Statement/Lease)",
+					"type": "file",
+					"required": true
+				},
+				{
+					"name": "authorityProof",
+					"label": "Proof of Authority (PoA/Resolution)",
+					"type": "file"
+				},
+				{
+					"name": "signatoryId",
+					"label": "Govt-issued ID of Authorized Signatory",
+					"type": "file",
+					"required": true
+				}
+			]
+		}
+	]
+}

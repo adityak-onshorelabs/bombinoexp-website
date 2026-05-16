@@ -1,0 +1,84 @@
+{
+	"ecommerceCourier": {
+		"title": "Air Freight",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/air-freight.png",
+		"description": [
+			"We provide expedited air freight and International air freight services to destinations anywhere in the world.",
+			"Bombino Express, with a network of offices and agents throughout the world, allows you the opportunity to coordinate air freight shipments worldwide for the most safe, timely, seamless, and cost effective service possible.",
+			"Check out our airport-to-airport services which are ideally suited to customers with a high volume of business requiring time-critical delivery. We provide air freight services based on your needs and schedules, and even select the most appropriate carrier for your shipment, giving you a head start over other air freight forwarding companies.",
+			"For example, by taking into account the variations in summer and winter timetables, and the impact of size and weight restrictions, this helps you avoid unnecessary costs and delays in shipping your freight around the world. Remember though that with all this efficiency what is most important is our personalized service.",
+			"Every shipment of yours is personally handled by us, and great care is taken in the proper transportation of your product, whatever it may be: We give it the attention it rightly deserves!"
+		]
+	},
+	"howItHelps": {
+		"title": "Value Added Services",
+		"items": [
+			{
+				"title": "Custom Clearance & Forwarding",
+				"description": "Expert handling of all customs documentation and forwarding logistics to ensure your shipments cross borders without unnecessary delays."
+			},
+			{
+				"title": "FLC Consolidation",
+				"description": "Full-Container Load (FLC) consolidation services designed to maximize your shipping capacity and provide cost-effective transit."
+			},
+			{
+				"title": "LCL Consolidation",
+				"description": "Flexible Less-Container Load (LCL) solutions for smaller shipments, allowing you to ship time-critical goods without paying for unused space."
+			},
+			{
+				"title": "On-the-Spot Stuffing",
+				"description": "We offer on-the-spot and factory stuffing of containers directly at your facility to enhance security and streamline the departure process."
+			},
+			{
+				"title": "Multi-Model Transport",
+				"description": "As multi-model transport operators, we seamlessly integrate air, sea, and ground networks for true end-to-end global delivery."
+			}
+		]
+	},
+	"fulfillmentServices": {
+		"title": "Infrastructure & Specialized Handling",
+		"items": [
+			{
+				"title": "Global Port Infrastructure",
+				"description": "We provide comprehensive infrastructure and services facilities at all major sea ports and dry ports around the world.",
+				"image": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/seaport.jpg"
+			},
+			{
+				"title": "Dry or Liquid Bulk",
+				"description": "Specialized handling, routing, and transportation solutions for complex dry or liquid bulk shipments.",
+				"image": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/dry-bulk.jpg"
+			},
+			{
+				"title": "Insurance & Packing",
+				"description": "Comprehensive cargo insurance coverage and professional packing options to ensure your goods arrive in pristine condition.",
+				"image": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/Insurance-Packaging-1.jpg"
+			},
+			{
+				"title": "Customs Warehousing",
+				"description": "Secure, compliant customs warehousing solutions integrated directly with our forwarding operations.",
+				"image": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/warehouse.jpg"
+			}
+		]
+	},
+	"concierge": {
+		"title": "Air Freight Control",
+		"features": [
+			"Automated Documentation",
+			"Cargo Tracking System",
+			"Communication Facilities",
+			"Personalized Shipment Handling"
+		]
+	},
+	"ior": {
+		"title": "Global Compliance",
+		"description": "Navigate international shipping regulations with our expert compliance and forwarding services.",
+		"features": [
+			"Summer/Winter timetable optimization.",
+			"Size and weight restriction management.",
+			"Carrier selection and routing.",
+			"Cost-effective shipping strategies.",
+			"Dedicated point of contact.",
+			"Regulatory compliance adherence."
+		]
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"hero": {
+		"title": "Cross Border Courier Services",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/cross-border.png",
+		"description": [
+			"Our courier service is well aware of the challenges involved in cross border shipping. That's why we provide a range of cross border courier services to simplify the process for you.",
+			"Whether you're shipping goods or documents, our knowledgeable team collaborates with you to identify the best options for your cross border shipping needs. We offer swift customs clearance services, helping you navigate intricate international laws stress-free. Trust us for on-time and budget-friendly cross border shipping with our competitive prices and top-notch customer service."
+		]
+	},
+	"howItWorks": {
+		"title": "How Cross Border Delivery Works",
+		"description": "We offer a comprehensive suite of services, partnering closely with trucking and rail networks to ensure cost-effective and efficient transportation.",
+		"items": [
+			{
+				"title": "Strategic Transportation",
+				"description": "Our team works closely with strategic trucking partners to provide 53FT trailer capacity. Additionally, we offer rail solutions that connect borders for efficient transportation."
+			},
+			{
+				"title": "Customs House Brokerage",
+				"description": "Our customs house brokerage services ensure that your cross border shipment meets all necessary regulations at the border crossing, making the process simple and stress-free."
+			},
+			{
+				"title": "Warehousing & Insurance",
+				"description": "We offer warehousing services in Laredo, Texas, including cross-docking, storage, sorting, packaging, and labeling, fully backed by comprehensive insurance options."
+			},
+			{
+				"title": "3PL & SCM Solutions",
+				"description": "For specialized supply chain solutions, we offer 3PL and SCM services to optimize your cross border supply chain and ensure the timely delivery of your shipments."
+			}
+		]
+	},
+	"globalShipping": {
+		"title": "Simplifying Your Global Shipping Needs",
+		"paragraphs": [
+			"Experience the convenience of cross border shipping with Bombino Express. We offer a range of services including door-to-door and port-to-port, both in express and freight categories. Our strong collaborations with leading global airlines and ocean carriers ensure your shipments reach their destination efficiently and securely.",
+			"At Bombino Express, we pride ourselves on our comprehensive network. This network is enhanced by our advanced, tech-enabled tracking system, allowing you to monitor your shipment every step of the way. To further streamline the services, our in-house regulatory team provides proactive clearance support.",
+			"Choose Bombino Express for your cross border courier services and discover a world of seamless, reliable, and efficient cross border shipping solutions."
+		]
+	},
+	"whyChooseUs": {
+		"title": "Why Choose Bombino Express?",
+		"items": [
+			{
+				"title": "Global Reach, Local Expertise",
+				"description": "We offer a dynamic global network ensuring efficient and reliable deliveries to over 200 countries worldwide, handled with the utmost care."
+			},
+			{
+				"title": "Navigating Customs with Ease",
+				"description": "Our team possesses deep knowledge of international customs regulations, ensuring smooth customs clearance and compliance for a stress-free experience."
+			},
+			{
+				"title": "Last-Mile Delivery Services",
+				"description": "A hallmark of our ecommerce shipping solutions, our last-mile delivery ensures that your products are delivered to the customer's doorstep efficiently."
+			},
+			{
+				"title": "Personalized Shipping Solutions",
+				"description": "We provide tailored logistics solutions specifically designed to meet your unique cross border requirements, ensuring flexibility in every transaction."
+			},
+			{
+				"title": "Affordable Quality Service",
+				"description": "We believe in offering high-quality international shipping at competitive prices, allowing you to optimize your shipping budget without any worries."
+			}
+		]
+	}
+}

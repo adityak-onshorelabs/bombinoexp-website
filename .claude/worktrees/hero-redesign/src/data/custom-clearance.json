@@ -1,0 +1,74 @@
+{
+	"hero": {
+		"title": "Custom Clearance Services",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/custom-clearance.png",
+		"description": [
+			"For every border crossed, Bombino Express ensures your goods seamlessly navigate through customs clearance processing.",
+			"We simplify complex customs clearance processing for businesses and international shipments. Our service ensures that your consignments fully comply with all legal requirements and intricate international laws, significantly reducing potential delays.",
+			"Our in-house regulatory team provides proactive clearance support and handles all the necessary documentation and procedures, making international shipping a smooth, hassle-free experience for our clients."
+		]
+	},
+	"heroForm": {
+		"title": "Request Clearance Assistance",
+		"subtitle": "Complete the secure form below for quick customs clearance support.",
+		"fields": [
+			{
+				"name": "awbNumber",
+				"label": "AWB / Reference Number *",
+				"type": "text",
+				"placeholder": "Enter AWB No."
+			},
+			{
+				"name": "fullName",
+				"label": "Full Name *",
+				"type": "text",
+				"placeholder": "Enter your name"
+			},
+			{
+				"name": "email",
+				"label": "Email Address *",
+				"type": "email",
+				"placeholder": "name@example.com"
+			},
+			{
+				"name": "mobile",
+				"label": "Mobile Number *",
+				"type": "tel",
+				"placeholder": "+91 XXXXX XXXXX"
+			},
+			{
+				"name": "shipmentType",
+				"label": "Shipment Type *",
+				"type": "select",
+				"options": [
+					"Import Clearance",
+					"Export Clearance",
+					"Ecommerce Fulfillment",
+					"Bulk Cargo"
+				]
+			}
+		],
+		"buttonText": "Submit Request"
+	},
+	"features": {
+		"title": "Our Customs Clearance Capabilities",
+		"items": [
+			{
+				"title": "Comprehensive Documentation",
+				"description": "We handle all the necessary documentation, forms, and filing procedures required by regulatory authorities to ensure error-free submissions."
+			},
+			{
+				"title": "Proactive Clearance Support",
+				"description": "Our in-house regulatory team offers swift customs clearance services, helping you navigate intricate international laws stress-free."
+			},
+			{
+				"title": "Legal Compliance",
+				"description": "Ensure your international shipments comply with all legal requirements and local customs regulations, minimizing inspection holds and reducing potential delays."
+			},
+			{
+				"title": "Real-Time Tracking & Reporting",
+				"description": "Stay fully informed with advanced, tech-enabled tracking systems and comprehensive reporting that monitor your clearance status every step of the way."
+			}
+		]
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"header": {
+		"title": "Request a Shipping Quote",
+		"subtitle": "Provide your shipment details below to receive an instant estimated rate and transit time."
+	},
+	"form": {
+		"origin": {
+			"title": "1. Origin (From)",
+			"fields": [
+				{
+					"name": "originCountry",
+					"label": "Country *",
+					"type": "select",
+					"options": [
+						"India",
+						"United States",
+						"United Kingdom",
+						"United Arab Emirates",
+						"Canada",
+						"Australia"
+					]
+				},
+				{
+					"name": "originCity",
+					"label": "City *",
+					"type": "text",
+					"placeholder": "Enter origin city"
+				},
+				{
+					"name": "originPincode",
+					"label": "Zip / Pincode *",
+					"type": "text",
+					"placeholder": "e.g. 400001"
+				}
+			]
+		},
+		"destination": {
+			"title": "2. Destination (To)",
+			"fields": [
+				{
+					"name": "destCountry",
+					"label": "Country *",
+					"type": "select",
+					"options": [
+						"United States",
+						"India",
+						"United Kingdom",
+						"United Arab Emirates",
+						"Canada",
+						"Australia",
+						"Singapore",
+						"Germany"
+					]
+				},
+				{
+					"name": "destCity",
+					"label": "City *",
+					"type": "text",
+					"placeholder": "Enter destination city"
+				},
+				{
+					"name": "destPincode",
+					"label": "Zip / Pincode *",
+					"type": "text",
+					"placeholder": "e.g. 90001"
+				}
+			]
+		},
+		"packageDetails": {
+			"title": "3. Package Details",
+			"fields": [
+				{
+					"name": "shipmentType",
+					"label": "Shipment Type *",
+					"type": "select",
+					"options": [
+						"Documents",
+						"Non-Documents / Parcel",
+						"Commercial Goods",
+						"E-commerce"
+					]
+				},
+				{
+					"name": "weight",
+					"label": "Weight (Actual) *",
+					"type": "text",
+					"placeholder": "Weight in kg (e.g. 2.5)"
+				}
+			],
+			"dimensions": {
+				"label": "Dimensions in cm (L × W × H)",
+				"fields": [
+					{ "name": "length", "placeholder": "L" },
+					{ "name": "width", "placeholder": "W" },
+					{ "name": "height", "placeholder": "H" }
+				]
+			}
+		},
+		"contact": {
+			"title": "4. Contact Information",
+			"fields": [
+				{
+					"name": "fullName",
+					"label": "Your Name *",
+					"type": "text",
+					"placeholder": "Enter full name"
+				},
+				{
+					"name": "email",
+					"label": "Email Address *",
+					"type": "email",
+					"placeholder": "name@example.com"
+				},
+				{
+					"name": "phone",
+					"label": "Phone Number *",
+					"type": "tel",
+					"placeholder": "+91 XXXXX XXXXX"
+				}
+			]
+		},
+		"submitText": "Calculate Rate Quote"
+	}
+}

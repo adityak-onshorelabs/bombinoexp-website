@@ -1,0 +1,97 @@
+{
+	"sectionTitle": "Downloadable Customs & Shipping Documents",
+	"sectionSubtitle": "Click any document below to view or download the standard compliance format directly.",
+	"columnOne": [
+		{ "name": "Commercial Invoice", "href": "/pdf/commercial-invoice.pdf" },
+		{
+			"name": "Shipper's Letter of Instructions",
+			"href": "/pdf/shippers-letter-of-instructions.pdf"
+		},
+		{ "name": "Non-DG Declaration", "href": "/pdf/non-dg-declaration.pdf" },
+		{
+			"name": "GR Waiver Form (Repair & Return)",
+			"href": "/pdf/gr-waiver-repair-return.pdf"
+		},
+		{
+			"name": "Single Country Declaration",
+			"href": "/pdf/single-country-declaration.pdf"
+		},
+		{ "name": "Negative Declaration", "href": "/pdf/negative-declaration.pdf" },
+		{ "name": "Annexure C1 for EOU", "href": "/pdf/annexure-c1-eou.pdf" },
+		{ "name": "Appendix II for DEEC", "href": "/pdf/appendix-ii-deec.pdf" },
+		{
+			"name": "Annexure II for Drawback",
+			"href": "/pdf/annexure-ii-drawback.pdf"
+		},
+		{
+			"name": "Appendix IV for Drawback",
+			"href": "/pdf/appendix-iv-drawback.pdf"
+		},
+		{
+			"name": "Shippers Declaration Form",
+			"href": "/pdf/shippers-declaration-form.pdf"
+		},
+		{
+			"name": "Customs Authorization Letter",
+			"href": "/pdf/customs-authorization-letter.pdf"
+		},
+		{
+			"name": "DHL Authorization Letter - Customs other Authorities - 2020",
+			"href": "/pdf/dhl-authorization-letter-2020.pdf"
+		},
+		{
+			"name": "DHL Non Hazardous Certificate",
+			"href": "/pdf/dhl-non-hazardous-certificate.pdf"
+		},
+		{
+			"name": "Immitation Declaration Letter",
+			"href": "/pdf/immitation-declaration-letter.pdf"
+		},
+		{ "name": "Indeminity Letter_4", "href": "/pdf/indeminity-letter-4.pdf" }
+	],
+	"columnTwo": [
+		{ "name": "Packing List", "href": "/pdf/packing-list.pdf" },
+		{ "name": "SDF Form", "href": "/pdf/sdf-form.pdf" },
+		{
+			"name": "GR Waiver Form (Free Trade Sample)",
+			"href": "/pdf/gr-waiver-free-trade-sample.pdf"
+		},
+		{
+			"name": "Quota Charge Statement",
+			"href": "/pdf/quota-charge-statement.pdf"
+		},
+		{
+			"name": "Multiple Country Declaration",
+			"href": "/pdf/multiple-country-declaration.pdf"
+		},
+		{ "name": "TSCA Certificate", "href": "/pdf/tsca-certificate.pdf" },
+		{ "name": "Annexure D for DEPB", "href": "/pdf/annexure-d-depb.pdf" },
+		{
+			"name": "Annexure I for Drawback",
+			"href": "/pdf/annexure-i-drawback.pdf"
+		},
+		{
+			"name": "Appendix III for Drawback",
+			"href": "/pdf/appendix-iii-drawback.pdf"
+		},
+		{ "name": "MSDS", "href": "/pdf/msds.pdf" },
+		{
+			"name": "FEDEX AUTHORIZATION LETTER",
+			"href": "/pdf/fedex-authorization-letter.pdf"
+		},
+		{
+			"name": "Bombino Authorization Letter - Customs other Authorities - 2020",
+			"href": "/pdf/bombino-authorization-letter-2020.pdf"
+		},
+		{ "name": "Invoice Format", "href": "/pdf/invoice-format.pdf" },
+		{
+			"name": "MEDICINE Shipper Self Declaration Form",
+			"href": "/pdf/medicine-shipper-self-declaration.pdf"
+		},
+		{
+			"name": "Box wise Proforma Invoice format",
+			"href": "/pdf/box-wise-proforma-invoice.pdf"
+		},
+		{ "name": "CSB-V Invoice Format", "href": "/pdf/csb-v-invoice-format.pdf" }
+	]
+}

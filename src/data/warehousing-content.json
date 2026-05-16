@@ -1,0 +1,73 @@
+{
+	"hero": {
+		"title": "Warehousing Services",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/bombino-warehouse.png",
+		"description": [
+			"Specializing in warehousing services in India, Bombino Express offers more than just storage solutions. Our comprehensive approach includes efficient warehousing and inventory management, alongside tailored ecommerce fulfillment services.",
+			"Warehousing services are vital for the seamless operation of industries. Recognizing the critical role of maintaining product quality, especially for perishables and biological drugs, we ensure optimal material handling and storage conditions.",
+			"As your expert partner, we are dedicated to growing your business and ensuring your customers receive orders promptly and cost-effectively."
+		]
+	},
+	"storageTypes": {
+		"title": "Types of Warehouse Storage",
+		"description": "We offer diverse warehousing services and excel in meticulous inventory management, providing tailored solutions to meet your specific needs.",
+		"items": [
+			{
+				"title": "Dedicated Warehouse Space",
+				"description": "Exclusive space providing complete control and security. Ideal for companies with substantial product volumes or frequent access requirements."
+			},
+			{
+				"title": "Shared Storage Space",
+				"description": "A cost-effective approach for small enterprises or those seeking short-term storage solutions, sharing facility costs while benefiting from our expertise."
+			},
+			{
+				"title": "Temperature Controlled",
+				"description": "State-of-the-art climate storage designed for sensitive items like pharmaceuticals and food, guaranteeing precise maintenance of temperature and humidity."
+			},
+			{
+				"title": "Ambient Warehouse",
+				"description": "Maintains consistent temperature conditions to preserve product quality, with tech-enabled error-free receipts, storage, and order processing."
+			},
+			{
+				"title": "Excise Bonded Warehouse",
+				"description": "Secure and specialized storage options for commodities subject to excise duties, ensuring the safeguarding of your vital goods."
+			}
+		]
+	},
+	"safetyAndSecurity": {
+		"title": "Material Safety & 24/7 Security",
+		"features": [
+			{
+				"title": "Advanced Infrastructure",
+				"description": "Equipped with modern storage solutions including Pallets, Heavy Duty Racks (HDR), and Material Handling Equipment (MHEs)."
+			},
+			{
+				"title": "Fire & Facility Safety",
+				"description": "Facilities equipped with fire extinguishers and hydrants. Protection from water seepages using the latest safety measures like stackers."
+			},
+			{
+				"title": "Access & Vigilance",
+				"description": "Access controlled entrances, 24/7 CCTVs, and security guards ensure constant vigilance of the stocks kept in the warehouse."
+			},
+			{
+				"title": "Quality Control",
+				"description": "Regular fumigating, cleaning, and pest treatments to ensure the longevity and integrity of your stored goods."
+			},
+			{
+				"title": "Digital Retrieval",
+				"description": "Scanning and bar-coding systems implemented for easy, instant retrieval and comprehensive insurance coverage."
+			}
+		]
+	},
+	"benefits": {
+		"title": "The Bombino Advantage",
+		"items": [
+			"Significant Cost Savings on Operations",
+			"Real-time Inventory Tracking & Transparency",
+			"Faster, Last-Mile Delivery Services",
+			"Scalable Operations for Growing Volumes",
+			"No Investment Needed in Warehouse Leases",
+			"Shorter Lead Times & Improved ROI"
+		]
+	}
+}

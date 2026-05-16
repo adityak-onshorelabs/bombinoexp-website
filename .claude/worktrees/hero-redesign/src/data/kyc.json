@@ -1,0 +1,29 @@
+{
+	"hero": {
+		"title": "KYC Compliance Submission",
+		"description": [
+			"All shipments sent from or received into India need KYC documents of the consignee (Government recognized Identity and Address proof) to be presented to Customs during shipment clearance (reference: Customs Circular No. 9/2010).",
+			"In order to expedite your shipment and to avoid any delays, please complete the secure form below and upload your KYC documents. Please note: You only need to complete this process with Bombino Express once. Your information will be used for the sole purpose of KYC compliance only."
+		]
+	},
+	"contact": {
+		"text": "Any questions? Please contact us at",
+		"email": "bombino@bombinoexp.com",
+		"downloadText": "or you can download the KYC form."
+	},
+	"documentRules": {
+		"title": "KYC Document Submission",
+		"description": "In this section you can submit your ID proof. If you already have a scanned copy, you can simply click on the “Upload” button below and upload your documents, then click “Submit” below to submit your form.",
+		"requirement": "An individual must provide any 2 of the below ID proofs:",
+		"acceptedIds": [
+			"Aadhaar Card",
+			"Electricity Bill",
+			"PAN Card",
+			"Passport",
+			"Telephone Bill",
+			"Voter ID",
+			"Ration Card"
+		],
+		"note": "Note: JPEG and PDF type files are valid for Entered Valid AWB No. For Customer & Shipper only JPEG files will be uploaded."
+	}
+}

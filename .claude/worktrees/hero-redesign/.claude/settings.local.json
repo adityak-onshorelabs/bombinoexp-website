@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "PowerShell(Copy-Item *)",
+      "Skill(impeccable)",
+      "Bash(dir public *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(Copy-Item *)"
+    ]
+  }
+}

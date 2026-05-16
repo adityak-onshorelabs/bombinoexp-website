@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "PowerShell(Copy-Item *)",
+      "Skill(impeccable)",
+      "Bash(dir public *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "WebFetch(domain:framer.com)",
+      "WebFetch(domain:framerusercontent.com)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(Get-ChildItem src/components/home -Name)",
+      "Bash(Get-ChildItem src/components/layout -Name)",
+      "Bash(Get-ChildItem src/components/motion -Name)",
+      "Bash(powershell -Command ' *)",
+      "Bash(git -C \"C:\\\\Users\\\\Aditya Kamarouthu\\\\Work\\\\OnshoreLabs\\\\projects\\\\bombino\\\\bombino-website\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\Aditya Kamarouthu\\\\Work\\\\OnshoreLabs\\\\projects\\\\bombino\\\\bombino-website\" remote -v)",
+      "PowerShell(git *)"
+    ]
+  }
+}

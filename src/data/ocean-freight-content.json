@@ -1,0 +1,54 @@
+{
+	"hero": {
+		"title": "Ocean Freight Services",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/ocean-freight.png",
+		"description": [
+			"Our ocean shipping company specializes in reliable ocean freight services, ensuring your overseas shipping needs—from automobiles and motorcycles to shoes—are met with expertise. Trust our sea freight services to handle your cargo with care and efficiency."
+		]
+	},
+	"editorial": {
+		"sections": [
+			{
+				"title": "What is an Ocean Freight Service?",
+				"content": "Ocean freight services are the backbone of global trade. In fact, over 90% of the world's trade depends on sea freight services, underscoring the importance of a reliable ocean shipping company. If you're thinking of shipping goods globally, especially if they weigh more than 100kg or require multiple cartons, ocean freight services are likely your most convenient option."
+			},
+			{
+				"title": "Your Trusted Ocean Shipping Company",
+				"content": "As a leading ocean shipping company, we at Bombino Express ensure that our sea freight services offer the utmost efficiency and reliability. Our specially designed containers enhance the safety and security of your cargo. By choosing our ocean freight services, you're opting for a sea freight services provider that prioritizes your shipment's timely and safe delivery."
+			}
+		]
+	},
+	"services": {
+		"title": "Our Sea Freight Cargo Services",
+		"items": [
+			{
+				"title": "Full Container Load (FCL)",
+				"description": "When you need reliable ocean freight services from India to the USA or other global destinations, our FCL services stand out. Partnering with various ocean carriers, we offer weekly services across more than 10,000 port-pairs worldwide. We provide specialized solutions, like temperature-controlled or high-value cargo shipments, complete with advanced tracking features."
+			},
+			{
+				"title": "Less than Container Load (LCL)",
+				"description": "For businesses or individuals needing to ship smaller volumes, our LCL services are an optimal choice. Operating on more than 600 lanes, we cover over 10,000 port-pairs globally. You share container space with goods from other shippers, helping you save on costs, and we offset 100% of emissions for all LCL ocean freight services at no extra cost."
+			},
+			{
+				"title": "Ocean Freight Management",
+				"description": "Navigating the complexities of ocean freight is simplified with our comprehensive management services. Our standard offerings include carrier booking, EDI interfacing, dashboard monitoring, and carrier management. We specialize in carrier allocation optimization and provide real-time shipment and purchase order visibility."
+			},
+			{
+				"title": "Client Consolidation",
+				"description": "At the intersection of efficiency and cost-saving lies our specialized client consolidation services. For buyers sourcing from multiple suppliers, we merge LCL shipments into an FCL at a central hub. Conversely, our Seller's Consolidation merges multiple shipments from a single source into one FCL for diverse global buyers."
+			}
+		]
+	},
+	"conclusion": {
+		"title": "Why Choose Bombino Express?",
+		"description": "Navigating the vast seas of international shipping can be a daunting task. So, why trust Bombino Express? For starters, we have established ourselves as a trusted partner for thousands. Beyond the waves, our international courier service from India is seamlessly integrated with our sea freight services.",
+		"features": [
+			"Unparalleled global reach.",
+			"Caters to large corporations & individuals.",
+			"Unmatched courier expertise.",
+			"100% LCL emissions offset.",
+			"Dedicated carrier allocation.",
+			"Real-time shipment tracking."
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+  "header": {
+    "title": "Schedule a Pickup",
+    "subtitle": "Book a secure courier pickup directly from your location."
+  },
+  "form": {
+    "pickupLocation": {
+      "title": "1. Pickup Location (Shipper)",
+      "fields": [
+        { "name": "pickupAccountNo", "label": "Account Number (Optional)", "type": "text", "placeholder": "Enter Bombino Account No." },
+        { "name": "pickupCompany", "label": "Company Name", "type": "text", "placeholder": "Enter company name" },
+        { "name": "pickupContact", "label": "Contact Person *", "type": "text", "placeholder": "Enter full name" },
+        { "name": "pickupAddress", "label": "Complete Address *", "type": "text", "placeholder": "Enter complete street address", "fullWidth": true },
+        { "name": "pickupCity", "label": "City *", "type": "text", "placeholder": "Enter city" },
+        { "name": "pickupState", "label": "State *", "type": "text", "placeholder": "Enter state" },
+        { "name": "pickupPincode", "label": "Zip / Pincode *", "type": "text", "placeholder": "e.g. 400001" },
+        { "name": "pickupPhone", "label": "Phone / Mobile *", "type": "tel", "placeholder": "+91 XXXXX XXXXX" },
+        { "name": "pickupEmail", "label": "Email Address *", "type": "email", "placeholder": "name@example.com" }
+      ]
+    },
+    "dropLocation": {
+      "title": "2. Drop Location (Consignee)",
+      "fields": [
+        { "name": "dropCompany", "label": "Company Name (Optional)", "type": "text", "placeholder": "Enter company name" },
+        { "name": "dropContact", "label": "Contact Person *", "type": "text", "placeholder": "Enter full name" },
+        { "name": "dropAddress", "label": "Complete Delivery Address *", "type": "text", "placeholder": "Enter complete delivery address", "fullWidth": true },
+        {
+          "name": "dropCountry",
+          "label": "Destination Country *",
+          "type": "select",
+          "options": ["United States", "India", "United Kingdom", "United Arab Emirates", "Canada", "Australia", "Singapore", "Germany"]
+        },
+        { "name": "dropCity", "label": "City *", "type": "text", "placeholder": "Enter city" },
+        { "name": "dropState", "label": "State *", "type": "text", "placeholder": "Enter state" },
+        { "name": "dropPincode", "label": "Zip / Pincode *", "type": "text", "placeholder": "e.g. 90001" },
+        { "name": "dropPhone", "label": "Phone / Mobile *", "type": "tel", "placeholder": "+1 XXX XXX XXXX" },
+        { "name": "dropEmail", "label": "Email Address *", "type": "email", "placeholder": "recipient@example.com" }
+      ]
+    },
+    "shipment": {
+      "title": "3. Shipment Details",
+      "fields": [
+        {
+          "name": "productType",
+          "label": "Product Type *",
+          "type": "select",
+          "options": ["Documents", "Non-Documents / Parcel", "Commercial Goods", "E-commerce"]
+        },
+        { "name": "noOfPieces", "label": "Total Number of Pieces *", "type": "number", "placeholder": "e.g. 1" },
+        { "name": "totalWeight", "label": "Total Weight (kg) *", "type": "text", "placeholder": "e.g. 2.5" }
+      ]
+    },
+    "schedule": {
+      "title": "4. Date & Time Window",
+      "fields": [
+        { "name": "pickupDate", "label": "Preferred Pickup Date *", "type": "date" },
+        { "name": "readyTime", "label": "Package Ready Time *", "type": "time" },
+        { "name": "closingTime", "label": "Location Closing Time *", "type": "time" }
+      ]
+    },
+    "specialInstructions": {
+      "title": "5. Additional Notes",
+      "label": "Special Instructions / Remarks",
+      "placeholder": "Provide any specific directions, gate codes, or handling notes for our courier..."
+    },
+    "submitText": "Confirm Pickup Request"
+  }
+}

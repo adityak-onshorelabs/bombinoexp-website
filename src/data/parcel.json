@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "title": "Parcel Delivery Service",
+        "heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/bombino-parcel.png",
+        "description": [
+            "Know that excitement when a long-awaited parcel delivery service arrives? That's what we're about at Bombino Express. We understand the emotions behind every package, whether it's a gift to a loved one or something special for yourself.",
+            "Based in the heart of Mumbai, our mission is to make parcel delivery service feel personal, yet professional. We're not just shipping boxes; we're delivering memories, promises, and sometimes, even surprises. And, guess what? Our prices won't break the bank, and our parcel delivery service? Always on time.",
+            "Having a busy day and can't drop off your package? Our parcel delivery service has your back. And for those who feel apprehensive about international shipping and customs? Just picture us as your parcel's travel guide, making sure it sees the world smoothly."
+        ]
+    },
+    "coreServices": {
+        "title": "Our Parcel Delivery Services",
+        "description": "From domestic essentials to urgent international shipments, our dedicated team handles your parcels with utmost care and professionalism.",
+        "items": [
+            {
+                "title": "Domestic Parcel Delivery",
+                "description": "Your trusted partner for parcel delivery service in India. Whether you're sending gifts, important documents, or merchandise, we guarantee timely and secure deliveries with competitive pricing."
+            },
+            {
+                "title": "International Parcel Delivery",
+                "description": "Connect to the world with our international parcel courier service. We deliver to a wide range of countries including the USA, UK, Canada, and Australia, ensuring cost-effective and seamless global expansion."
+            },
+            {
+                "title": "Express One Day Delivery",
+                "description": "Specially designed for urgent deliveries that just can't wait. For patrons in major metro cities, we proudly offer an exclusive pickup to doorstep delivery in just one day."
+            },
+            {
+                "title": "Bulk Parcel Services",
+                "description": "Known as the best courier service for large parcels within India, we are equipped to handle your heftiest shipments with precision and care, including Next Day Delivery within India."
+            }
+        ]
+    },
+    "shippingTimelines": {
+        "title": "Speed & Reliability",
+        "features": [
+            {
+                "title": "Next-Day Domestic Service",
+                "description": "Unbeatable next-day parcel delivery exclusively designed for India. Whether you're shipping from Kashmir to Kanyakumari or Ahmedabad to Aizawl, we've got you covered. (Note: Remote regions may take 2-3 days)."
+            },
+            {
+                "title": "Tomorrow's Parcel, Booked Today",
+                "description": "A game-changer for businesses and individuals. Simply hop on our platform, input your parcel details, and ensure your package isn't lost in city chaos but swift on its journey."
+            },
+            {
+                "title": "Express International Transit",
+                "description": "While immediate next-day isn't always feasible globally, we've tailored express services for swift dispatches: expect a brief 4-5 day transit to the USA, 3-4 days to the UK, and 4-5 days to Australia."
+            }
+        ]
+    },
+    "contactInfo": {
+        "title": "Ready to Ship?",
+        "description": "If you're looking for a trusted parcel service in India, Bombino Express is here to serve you. Contact us today to get a quick rate quote or experience the ease and reliability of our parcel courier service.",
+        "phone": "+91 22 6640 0000",
+        "email": "bombino@bombinoexp.com"
+    }
+}

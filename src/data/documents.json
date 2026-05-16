@@ -1,0 +1,63 @@
+{
+	"header": {
+		"title": "Documents Required",
+		"subtitle": "Essential compliance and paperwork guidelines for smooth customs clearance.",
+		"pdfButton": {
+			"text": "Download KYC Form",
+			"href": "/pdf/kyc_form.pdf"
+		}
+	},
+	"categories": [
+		{
+			"title": "Gifts",
+			"icon": "gift",
+			"description": "When sending gifts to India, customs requires verification of the recipient.",
+			"documents": [
+				"Photo ID proof of the consignee (Any one: Passport, Voter ID, Aadhaar Card, or PAN Card)",
+				"Authorization letter from the consignee (if applicable)"
+			]
+		},
+		{
+			"title": "Personal Belongings",
+			"icon": "user",
+			"description": "For shipping unaccompanied baggage or personal effects.",
+			"documents": [
+				"Consignee's Passport copy (Front and back pages)",
+				"Valid Visa copy or Residence Permit",
+				"Air ticket copy or Boarding pass",
+				"Signed Baggage Declaration Form"
+			]
+		},
+		{
+			"title": "Commercial Shipments",
+			"icon": "briefcase",
+			"description": "Standard documentation required for standard B2B imports and exports.",
+			"documents": [
+				"Commercial Invoice with complete item description and HS Codes",
+				"Detailed Packing List",
+				"Shipper's Letter of Instruction (SLI)",
+				"Importer/Exporter Code (IEC) copy",
+				"Complete KYC documents of the entity"
+			]
+		},
+		{
+			"title": "Sample Shipments",
+			"icon": "box",
+			"description": "For trade samples and prototypes sent for evaluation.",
+			"documents": [
+				"Sample Proforma Invoice clearly marked as 'Free Trade Sample - No Commercial Value'",
+				"KYC documents of the sending/receiving company"
+			]
+		},
+		{
+			"title": "Repair & Return",
+			"icon": "tool",
+			"description": "For sending equipment or parts abroad for repair and returning them.",
+			"documents": [
+				"Original Export Shipping Bill / Bill of Entry",
+				"Repair Invoice from the overseas facility",
+				"Original Guarantee / Warranty card clearly stating the serial number"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"hero": {
+		"title": "Door to Door Delivery Services",
+		"heroImage": "https://ik.imagekit.io/adityakamarouthu/Onshorelabs/Bombino/door-to-door.png",
+		"description": [
+			"We offer you fast and efficient door-to-door delivery services. Now when most commodities are brought right to your doorstep, what about a company that picks up them from your doorstep too? Bombino Express does just that, providing door-to-door services for sending parcels and large consignments across the nation.",
+			"Our trained professionals efficiently handle computers, printed materials, product samples, spare parts, and more. We carry with care and handle every consignment as if it's our own. Our road transport department is capable of moving your consignments from your doorstep to the final destination across the world.",
+			"Similarly, door-to-door shipping is also a service of ours. This includes all shipping, handling, import and customs duties, making it a hassle-free option for customers to import goods from one place to another."
+		]
+	},
+	"features": {
+		"title": "Why Choose Our Door-to-Door Service?",
+		"items": [
+			{
+				"title": "Convenient Pickup & Delivery",
+				"description": "We don't just deliver to your doorstep; we pick up from it too. Enjoy a completely hands-off experience for both small parcels and large national consignments."
+			},
+			{
+				"title": "Expert Handling",
+				"description": "Our trained professionals efficiently and safely handle delicate and valuable items including computers, printed materials, product samples, and spare parts."
+			},
+			{
+				"title": "Global Network & Safety",
+				"description": "With our widespread road transport network, we ensure your belongings are safe and secure during transit, and most importantly, delivered on time across the world."
+			},
+			{
+				"title": "Hassle-Free Customs & Duties",
+				"description": "Unlike standard shipping, our comprehensive door-to-door shipping includes the handling of all import taxes, tariffs, and customs duties so you avoid unexpected costs upon arrival."
+			}
+		]
+	}
+}

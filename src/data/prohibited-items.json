@@ -1,0 +1,60 @@
+{
+	"header": {
+		"title": "Prohibited & Banned Items",
+		"subtitle": "To comply with international safety laws and carrier regulations, the following commodities are strictly prohibited from being shipped via Bombino Express."
+	},
+	"categories": [
+		{
+			"title": "Hazardous & Biological Commodities",
+			"icon": "alert-triangle",
+			"items": [
+				"Live animals and plants",
+				"Corpses, cremated, or disinterred remains",
+				"Radioactive material",
+				"All IATA restricted items and dangerous goods",
+				"Dry ice (including that used for packaging)",
+				"Liquids & semi-liquids"
+			]
+		},
+		{
+			"title": "Financial & High-Value Assets",
+			"icon": "dollar-sign",
+			"items": [
+				"Currency",
+				"Money (coins, paper money, and negotiable instruments)",
+				"Bullion",
+				"Precious & semi-precious items",
+				"Philately items"
+			]
+		},
+		{
+			"title": "Illegal, Regulated & Weapons",
+			"icon": "shield-off",
+			"items": [
+				"Drugs and narcotics",
+				"Firearms, parts thereof, and ammunition",
+				"Pornography",
+				"Gambling devices: lottery tickets and gambling devices where prohibited by law",
+				"Indian postal articles"
+			]
+		},
+		{
+			"title": "Electronics & Perishables",
+			"icon": "battery-charging",
+			"items": [
+				"Electronic and electrical products and spare parts with battery source",
+				"Foodstuffs/perishables (food and beverages requiring refrigeration or environmental control)"
+			]
+		},
+		{
+			"title": "Operational & Statutory Restrictions",
+			"icon": "file-minus",
+			"items": [
+				"Commodities banned by law at any given time without prior notice",
+				"Any shipment likely to cause delay or damage to equipment, personnel, or other shipments",
+				"Any shipment that may require the carrier to obtain a license for its transportation",
+				"Any item whose carriage is prohibited by any law, statute, or regulation of the country of origin, destination, or transit"
+			]
+		}
+	]
+}
